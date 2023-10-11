@@ -1,0 +1,17 @@
+# top-most EditorConfig file
+root = true
+
+# Windows-style all files
+[*]
+end_of_line = crlf
+
+# 4 space indentation
+[*.{c,cpp,h,hpp}]
+charset = utf-8
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+
+# Tab indentation
+[Makefile]
+indent_style = tab
